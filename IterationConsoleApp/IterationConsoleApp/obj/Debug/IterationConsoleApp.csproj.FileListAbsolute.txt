@@ -1,0 +1,8 @@
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\IterationConsoleApp\IterationConsoleApp\bin\Debug\IterationConsoleApp.exe.config
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\IterationConsoleApp\IterationConsoleApp\bin\Debug\IterationConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\IterationConsoleApp\IterationConsoleApp\bin\Debug\IterationConsoleApp.pdb
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\IterationConsoleApp\IterationConsoleApp\obj\Debug\IterationConsoleApp.csproj.AssemblyReference.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\IterationConsoleApp\IterationConsoleApp\obj\Debug\IterationConsoleApp.csproj.SuggestedBindingRedirects.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\IterationConsoleApp\IterationConsoleApp\obj\Debug\IterationConsoleApp.csproj.CoreCompileInputs.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\IterationConsoleApp\IterationConsoleApp\obj\Debug\IterationConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\IterationConsoleApp\IterationConsoleApp\obj\Debug\IterationConsoleApp.pdb
