@@ -1,0 +1,8 @@
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\LoopConsoleAppAssignment\LoopConsoleAppAssignment\bin\Debug\LoopConsoleAppAssignment.exe.config
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\LoopConsoleAppAssignment\LoopConsoleAppAssignment\bin\Debug\LoopConsoleAppAssignment.exe
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\LoopConsoleAppAssignment\LoopConsoleAppAssignment\bin\Debug\LoopConsoleAppAssignment.pdb
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\LoopConsoleAppAssignment\LoopConsoleAppAssignment\obj\Debug\LoopConsoleAppAssignment.csproj.AssemblyReference.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\LoopConsoleAppAssignment\LoopConsoleAppAssignment\obj\Debug\LoopConsoleAppAssignment.csproj.SuggestedBindingRedirects.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\LoopConsoleAppAssignment\LoopConsoleAppAssignment\obj\Debug\LoopConsoleAppAssignment.csproj.CoreCompileInputs.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\LoopConsoleAppAssignment\LoopConsoleAppAssignment\obj\Debug\LoopConsoleAppAssignment.exe
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\LoopConsoleAppAssignment\LoopConsoleAppAssignment\obj\Debug\LoopConsoleAppAssignment.pdb
