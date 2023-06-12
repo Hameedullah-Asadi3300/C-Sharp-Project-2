@@ -93,7 +93,7 @@ namespace LoopConsoleAppAssignment
                 //Add code to that above loop that tells a user if the put in text that is not in the list.
                 if (standing == 0)
                 {
-                    Console.WriteLine("That is not a valic team name. Enter again:");
+                    Console.WriteLine("That is not a valid team name. Enter again:");
                 }
                 //Add code to that above loop that stop if from executing once a match has been found.
                 else

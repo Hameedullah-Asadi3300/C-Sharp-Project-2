@@ -1,0 +1,8 @@
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\ExcpitionHandling\ExcpitionHandling\bin\Debug\ExcpitionHandling.exe.config
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\ExcpitionHandling\ExcpitionHandling\bin\Debug\ExcpitionHandling.exe
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\ExcpitionHandling\ExcpitionHandling\bin\Debug\ExcpitionHandling.pdb
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\ExcpitionHandling\ExcpitionHandling\obj\Debug\ExcpitionHandling.csproj.AssemblyReference.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\ExcpitionHandling\ExcpitionHandling\obj\Debug\ExcpitionHandling.csproj.SuggestedBindingRedirects.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\ExcpitionHandling\ExcpitionHandling\obj\Debug\ExcpitionHandling.csproj.CoreCompileInputs.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\ExcpitionHandling\ExcpitionHandling\obj\Debug\ExcpitionHandling.exe
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\ExcpitionHandling\ExcpitionHandling\obj\Debug\ExcpitionHandling.pdb
