@@ -33,7 +33,7 @@ using System.Collections.Generic;
                 {
                     Console.WriteLine(ex.Message);
                 }
-                Console.WriteLine("The program exited the try/catch block");
+                Console.WriteLine("The program exited the try/catch block.");
                 Console.ReadLine();
             }
         }
