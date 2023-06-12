@@ -1,0 +1,8 @@
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\StringAndIntegersConsoleApp\StringAndIntegersConsoleApp\bin\Debug\StringAndIntegersConsoleApp.exe.config
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\StringAndIntegersConsoleApp\StringAndIntegersConsoleApp\bin\Debug\StringAndIntegersConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\StringAndIntegersConsoleApp\StringAndIntegersConsoleApp\bin\Debug\StringAndIntegersConsoleApp.pdb
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\StringAndIntegersConsoleApp\StringAndIntegersConsoleApp\obj\Debug\StringAndIntegersConsoleApp.csproj.AssemblyReference.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\StringAndIntegersConsoleApp\StringAndIntegersConsoleApp\obj\Debug\StringAndIntegersConsoleApp.csproj.SuggestedBindingRedirects.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\StringAndIntegersConsoleApp\StringAndIntegersConsoleApp\obj\Debug\StringAndIntegersConsoleApp.csproj.CoreCompileInputs.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\StringAndIntegersConsoleApp\StringAndIntegersConsoleApp\obj\Debug\StringAndIntegersConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\StringAndIntegersConsoleApp\StringAndIntegersConsoleApp\obj\Debug\StringAndIntegersConsoleApp.pdb
