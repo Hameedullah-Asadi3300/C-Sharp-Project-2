@@ -23,6 +23,7 @@ namespace TwentyOneGameConsoleApp
             Console.WriteLine(deck.Cards.Count);
             Console.ReadLine();
         }
+
         public static Deck Shuffling(Deck deck)
         {
             List<Card> TempList = new List<Card>();
