@@ -1,0 +1,8 @@
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\MethodsConsoleApp\MethodsConsoleApp\bin\Debug\MethodsConsoleApp.exe.config
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\MethodsConsoleApp\MethodsConsoleApp\bin\Debug\MethodsConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\MethodsConsoleApp\MethodsConsoleApp\bin\Debug\MethodsConsoleApp.pdb
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\MethodsConsoleApp\MethodsConsoleApp\obj\Debug\MethodsConsoleApp.csproj.AssemblyReference.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\MethodsConsoleApp\MethodsConsoleApp\obj\Debug\MethodsConsoleApp.csproj.SuggestedBindingRedirects.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\MethodsConsoleApp\MethodsConsoleApp\obj\Debug\MethodsConsoleApp.csproj.CoreCompileInputs.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\MethodsConsoleApp\MethodsConsoleApp\obj\Debug\MethodsConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\MethodsConsoleApp\MethodsConsoleApp\obj\Debug\MethodsConsoleApp.pdb
