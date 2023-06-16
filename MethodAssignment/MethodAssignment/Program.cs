@@ -10,18 +10,20 @@ namespace MethodAssignment
     {
         static void Main(string[] args)
         {
-            SecondMethod(int anum1);                    //Instantiating the method
-            SecondMethod(int anum2);                    //Instantiting the method
-            Console.ReadLine();                     //Keeps the console open
+            int anum1 = 200;                    //Stored a value of 200 inside variable anum1
+            int anum2 = 400;                    //stored a value of 400 inside variable anum2
+            SecondMethod(anum1, anum2);         //Instintiated the method named SecondMethod
+            Console.ReadLine();                   
         }
 
-        static void SecondMethod(int anum1, int anum2)  //Created a void method with two integer data type
+        static void SecondMethod(int anum1, int anum2) 
         {
-            int num1 = 300; //First value of integer data type
-            Console.WriteLine("The value of first integer is " + num1 + " ."); //Conactaenates and display the value of num1
-            int num2 = 500; //Second value of integer data type
-            num2++;         //MAth operation that increments the value of "num2" int data type
+            anum1 = 200;
+            Console.WriteLine("The value of first integer is " + anum1 + ".");
+            anum2 = 400;
+            anum2++;
+            Console.WriteLine("The value of second incremented integer is " + anum2 + ".");
+            Console.ReadLine();
         }
-
     }
 }

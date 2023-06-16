@@ -1,0 +1,8 @@
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\MethodAssignment\MethodAssignment\bin\Debug\MethodAssignment.exe.config
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\MethodAssignment\MethodAssignment\bin\Debug\MethodAssignment.exe
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\MethodAssignment\MethodAssignment\bin\Debug\MethodAssignment.pdb
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\MethodAssignment\MethodAssignment\obj\Debug\MethodAssignment.csproj.AssemblyReference.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\MethodAssignment\MethodAssignment\obj\Debug\MethodAssignment.csproj.SuggestedBindingRedirects.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\MethodAssignment\MethodAssignment\obj\Debug\MethodAssignment.csproj.CoreCompileInputs.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\MethodAssignment\MethodAssignment\obj\Debug\MethodAssignment.exe
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\MethodAssignment\MethodAssignment\obj\Debug\MethodAssignment.pdb
