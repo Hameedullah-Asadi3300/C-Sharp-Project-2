@@ -13,17 +13,15 @@ namespace MethodAssignment
             int anum1 = 200;                    //Stored a value of 200 inside variable anum1
             int anum2 = 400;                    //stored a value of 400 inside variable anum2
             SecondMethod(anum1, anum2);         //Instintiated the method named SecondMethod
-            Console.ReadLine();                   
+            Console.ReadLine();                 //Keeps the console open
         }
 
-        static void SecondMethod(int anum1, int anum2) 
+        static void SecondMethod(int anum1, int anum2)      //Created a void method named SecondMEthod with two parameters
         {
-            anum1 = 200;
-            Console.WriteLine("The value of first integer is " + anum1 + ".");
-            anum2 = 400;
-            anum2++;
-            Console.WriteLine("The value of second incremented integer is " + anum2 + ".");
-            Console.ReadLine();
+            Console.WriteLine("The value of first integer is " + anum1 + ".");          //Concatenates and displays the value
+            anum2++;                                                                    //Increments the 400 by 1
+            Console.WriteLine("The value of second incremented integer is " + anum2 + "."); //Concetenates and displays the value of anum2
+            Console.ReadLine(); //Keeps the console open
         }
     }
 }
