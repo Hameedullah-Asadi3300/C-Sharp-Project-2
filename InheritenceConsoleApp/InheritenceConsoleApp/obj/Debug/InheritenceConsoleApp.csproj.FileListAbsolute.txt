@@ -1,0 +1,3 @@
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\InheritenceConsoleApp\InheritenceConsoleApp\obj\Debug\InheritenceConsoleApp.csproj.AssemblyReference.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\InheritenceConsoleApp\InheritenceConsoleApp\obj\Debug\InheritenceConsoleApp.csproj.SuggestedBindingRedirects.cache
+D:\GIT\C-Sharp-Project-2\C-Sharp-Project-2\InheritenceConsoleApp\InheritenceConsoleApp\obj\Debug\InheritenceConsoleApp.csproj.CoreCompileInputs.cache
