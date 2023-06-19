@@ -17,7 +17,7 @@ namespace AbstractClassAndPolymorphism
 
         public void Quit()  //Calling the Quit method
         {
-            throw new NotImplementedException();   //Does not let to be implemented
+            Console.WriteLine("The Id od student is " + ID);
         }
 
     }
