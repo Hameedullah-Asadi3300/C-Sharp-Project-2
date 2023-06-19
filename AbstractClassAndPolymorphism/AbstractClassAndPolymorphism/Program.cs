@@ -16,11 +16,7 @@ namespace AbstractClassAndPolymorphism
             employee.SayName();         //Calling the "SayName" method on object of class "Employee"
             Console.ReadLine();
 
-
-            IQuittable quittable = new Employee();
-
-
-
+            IQuittable quittable = new Employee();  //Here the Employee object morphed to Iquittable
 
         }
     }

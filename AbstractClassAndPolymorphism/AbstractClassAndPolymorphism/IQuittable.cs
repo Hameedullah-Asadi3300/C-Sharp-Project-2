@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace AbstractClassAndPolymorphism
 {
-    internal interface IQuittable
+    public interface IQuittable   //Created an interface named Iquittable
     {
-
-       void Quit();
+       void Quit(Employee employee);    //Created a method named Quit
     }
 }
