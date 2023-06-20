@@ -1,0 +1,3 @@
+D:\GIT\C-Sharp-Project-2\OperatorOverloadingConsoleApp\OperatorOverloadingConsoleApp\obj\Debug\OperatorOverloadingConsoleApp.csproj.AssemblyReference.cache
+D:\GIT\C-Sharp-Project-2\OperatorOverloadingConsoleApp\OperatorOverloadingConsoleApp\obj\Debug\OperatorOverloadingConsoleApp.csproj.SuggestedBindingRedirects.cache
+D:\GIT\C-Sharp-Project-2\OperatorOverloadingConsoleApp\OperatorOverloadingConsoleApp\obj\Debug\OperatorOverloadingConsoleApp.csproj.CoreCompileInputs.cache
