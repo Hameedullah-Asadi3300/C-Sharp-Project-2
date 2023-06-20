@@ -11,3 +11,6 @@ D:\GIT\C-Sharp-Project-2\AbstractClassAndPolymorphism\AbstractClassAndPolymorphi
 D:\GIT\C-Sharp-Project-2\AbstractClassAndPolymorphism\AbstractClassAndPolymorphism\obj\Debug\AbstractClassAndPolymorphism.csproj.CoreCompileInputs.cache
 D:\GIT\C-Sharp-Project-2\AbstractClassAndPolymorphism\AbstractClassAndPolymorphism\obj\Debug\AbstractClassAndPolymorphism.exe
 D:\GIT\C-Sharp-Project-2\AbstractClassAndPolymorphism\AbstractClassAndPolymorphism\obj\Debug\AbstractClassAndPolymorphism.pdb
+D:\GIT\C-Sharp-Project-2\AbstractClassAndPolymorphism\AbstractClassAndPolymorphism\bin\Debug\AbstractClassAndPolymorphism.exe.config
+D:\GIT\C-Sharp-Project-2\AbstractClassAndPolymorphism\AbstractClassAndPolymorphism\bin\Debug\AbstractClassAndPolymorphism.exe
+D:\GIT\C-Sharp-Project-2\AbstractClassAndPolymorphism\AbstractClassAndPolymorphism\bin\Debug\AbstractClassAndPolymorphism.pdb

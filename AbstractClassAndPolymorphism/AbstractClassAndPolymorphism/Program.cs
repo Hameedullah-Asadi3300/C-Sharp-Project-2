@@ -10,14 +10,16 @@ namespace AbstractClassAndPolymorphism
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee(); //instantiated an object of class "Employee"
-            employee.firstName = "Sample";      //First Property of the employee object
-            employee.lastName = "Student";      //Second property of the employee object 
-            employee.ID = 789987;               //Third class member
+            Employee employee = new Employee(); //  instantiated an object of class "Employee"
+            employee.firstName = "Sample";      //  First Property of the employee object
+            employee.lastName = "Student";      //  Second property of the employee object 
+            employee.SayName();                     //  Calling the "SayName" method on object of class "Employee"
+            IQuittable quittable = new Employee();  //  Here the Employee object morphed to Iquittable interface
+            employee.ID = 789987;                   //  Third class member
 
-            employee.SayName();         //Calling the "SayName" method on object of class "Employee"
-            IQuittable quittable = new Employee();  //Here the Employee object morphed to Iquittable interface
-            Console.ReadLine();                     //Keeps the console open
+            //  Interface method
+            employee.Quit(employee);                //  This statement implements the "Quit" method with given parameter
+            Console.ReadLine();                     //  Keeps the console open
         }
     }
 }

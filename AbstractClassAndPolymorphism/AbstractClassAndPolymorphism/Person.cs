@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace AbstractClassAndPolymorphism
 {
-    public abstract class Person        //Created an abstract class named person
+    public abstract class Person        //  Created an abstract class named person
     {
-        public string firstName { get; set; }   //Class member
-        public string lastName { get; set; }    //Class member
+        public string firstName { get; set; }   //  Class member
+        public string lastName { get; set; }    //  Class member
 
-        public abstract void SayName();         //Creted a method called SayName
+        public abstract void SayName();         //  Creted a method called SayName
        
     }
 }
