@@ -18,12 +18,24 @@ namespace OperatorOverloadingConsoleApp
         public static bool operator == (Employee employee1, Employee employee2)
         {
             if (ReferenceEquals(employee1, employee2))
-                Console.WriteLine("Employee 1 is equal to employee 2.");
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
         public static bool operator !=(Employee employee1, Employee employee2)
         {
             if (!ReferenceEquals(employee1, employee2))
-                Console.WriteLine("Employee1 is not equal to employee2.");
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
     }

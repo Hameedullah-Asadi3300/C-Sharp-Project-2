@@ -1,3 +1,8 @@
 D:\GIT\C-Sharp-Project-2\OperatorOverloadingConsoleApp\OperatorOverloadingConsoleApp\obj\Debug\OperatorOverloadingConsoleApp.csproj.AssemblyReference.cache
 D:\GIT\C-Sharp-Project-2\OperatorOverloadingConsoleApp\OperatorOverloadingConsoleApp\obj\Debug\OperatorOverloadingConsoleApp.csproj.SuggestedBindingRedirects.cache
 D:\GIT\C-Sharp-Project-2\OperatorOverloadingConsoleApp\OperatorOverloadingConsoleApp\obj\Debug\OperatorOverloadingConsoleApp.csproj.CoreCompileInputs.cache
+D:\GIT\C-Sharp-Project-2\OperatorOverloadingConsoleApp\OperatorOverloadingConsoleApp\bin\Debug\OperatorOverloadingConsoleApp.exe.config
+D:\GIT\C-Sharp-Project-2\OperatorOverloadingConsoleApp\OperatorOverloadingConsoleApp\bin\Debug\OperatorOverloadingConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\OperatorOverloadingConsoleApp\OperatorOverloadingConsoleApp\bin\Debug\OperatorOverloadingConsoleApp.pdb
+D:\GIT\C-Sharp-Project-2\OperatorOverloadingConsoleApp\OperatorOverloadingConsoleApp\obj\Debug\OperatorOverloadingConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\OperatorOverloadingConsoleApp\OperatorOverloadingConsoleApp\obj\Debug\OperatorOverloadingConsoleApp.pdb
