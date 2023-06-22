@@ -23,8 +23,8 @@ namespace OperatorOverloadingConsoleApp
             employee2.FirstName = "Mike";
             employee2.LastName = "Smith";
 
-            
 
+            //Calling the operators
             Console.WriteLine(employee1 == employee2);
             Console.WriteLine(employee2 != employee1);
             Console.ReadLine();
