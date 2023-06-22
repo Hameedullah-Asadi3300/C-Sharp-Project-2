@@ -15,10 +15,15 @@ namespace OperatorOverloadingConsoleApp
         public string LastName { get; set; }
 
 
-        public static Employee operator ==(Employee employee1, Employee employee2)
+        public static bool operator == (Employee employee1, Employee employee2)
         {
-            Employee employeeResult = new Employee(employee1.id == employee2.id);
-            return employeeResult;
+            if (ReferenceEquals(employee1, employee2))
+                Console.WriteLine("Employee 1 is equal to employee 2.");
+        }
+        public static bool operator !=(Employee employee1, Employee employee2)
+        {
+            if (!ReferenceEquals(employee1, employee2))
+                Console.WriteLine("Employee1 is not equal to employee2.");
         }
 
     }
