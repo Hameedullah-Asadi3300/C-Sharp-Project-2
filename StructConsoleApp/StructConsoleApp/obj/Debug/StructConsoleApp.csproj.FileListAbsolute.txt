@@ -1,0 +1,8 @@
+D:\GIT\C-Sharp-Project-2\StructConsoleApp\StructConsoleApp\bin\Debug\StructConsoleApp.exe.config
+D:\GIT\C-Sharp-Project-2\StructConsoleApp\StructConsoleApp\bin\Debug\StructConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\StructConsoleApp\StructConsoleApp\bin\Debug\StructConsoleApp.pdb
+D:\GIT\C-Sharp-Project-2\StructConsoleApp\StructConsoleApp\obj\Debug\StructConsoleApp.csproj.AssemblyReference.cache
+D:\GIT\C-Sharp-Project-2\StructConsoleApp\StructConsoleApp\obj\Debug\StructConsoleApp.csproj.SuggestedBindingRedirects.cache
+D:\GIT\C-Sharp-Project-2\StructConsoleApp\StructConsoleApp\obj\Debug\StructConsoleApp.csproj.CoreCompileInputs.cache
+D:\GIT\C-Sharp-Project-2\StructConsoleApp\StructConsoleApp\obj\Debug\StructConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\StructConsoleApp\StructConsoleApp\obj\Debug\StructConsoleApp.pdb
