@@ -1,0 +1,8 @@
+D:\GIT\C-Sharp-Project-2\LambdaExpressionConsoleApp\LambdaExpressionConsoleApp\obj\Debug\LambdaExpressionConsoleApp.csproj.AssemblyReference.cache
+D:\GIT\C-Sharp-Project-2\LambdaExpressionConsoleApp\LambdaExpressionConsoleApp\obj\Debug\LambdaExpressionConsoleApp.csproj.SuggestedBindingRedirects.cache
+D:\GIT\C-Sharp-Project-2\LambdaExpressionConsoleApp\LambdaExpressionConsoleApp\obj\Debug\LambdaExpressionConsoleApp.csproj.CoreCompileInputs.cache
+D:\GIT\C-Sharp-Project-2\LambdaExpressionConsoleApp\LambdaExpressionConsoleApp\bin\Debug\LambdaExpressionConsoleApp.exe.config
+D:\GIT\C-Sharp-Project-2\LambdaExpressionConsoleApp\LambdaExpressionConsoleApp\bin\Debug\LambdaExpressionConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\LambdaExpressionConsoleApp\LambdaExpressionConsoleApp\bin\Debug\LambdaExpressionConsoleApp.pdb
+D:\GIT\C-Sharp-Project-2\LambdaExpressionConsoleApp\LambdaExpressionConsoleApp\obj\Debug\LambdaExpressionConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\LambdaExpressionConsoleApp\LambdaExpressionConsoleApp\obj\Debug\LambdaExpressionConsoleApp.pdb
