@@ -1,0 +1,8 @@
+D:\GIT\C-Sharp-Project-2\EnumConsoleApp\EnumConsoleApp\bin\Debug\EnumConsoleApp.exe.config
+D:\GIT\C-Sharp-Project-2\EnumConsoleApp\EnumConsoleApp\bin\Debug\EnumConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\EnumConsoleApp\EnumConsoleApp\bin\Debug\EnumConsoleApp.pdb
+D:\GIT\C-Sharp-Project-2\EnumConsoleApp\EnumConsoleApp\obj\Debug\EnumConsoleApp.csproj.AssemblyReference.cache
+D:\GIT\C-Sharp-Project-2\EnumConsoleApp\EnumConsoleApp\obj\Debug\EnumConsoleApp.csproj.SuggestedBindingRedirects.cache
+D:\GIT\C-Sharp-Project-2\EnumConsoleApp\EnumConsoleApp\obj\Debug\EnumConsoleApp.csproj.CoreCompileInputs.cache
+D:\GIT\C-Sharp-Project-2\EnumConsoleApp\EnumConsoleApp\obj\Debug\EnumConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\EnumConsoleApp\EnumConsoleApp\obj\Debug\EnumConsoleApp.pdb
