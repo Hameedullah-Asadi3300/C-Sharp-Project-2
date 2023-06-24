@@ -18,6 +18,7 @@ namespace TwentyOneGame
             Console.WriteLine("And how much money did you bring today?");
             int bank = Convert.ToInt32(Console.ReadLine());
             //  The player name will be placed inside {0}. Loved this feature!
+
             Console.WriteLine("Hello, {0}, Would you join the game of twenty one?", playerName);
             string answer = Console.ReadLine().ToLower();
             if (answer == "yes" || answer == "Yes" || answer == "YES" || answer == "yeah" || answer == "y" || answer == "yup")
@@ -34,6 +35,7 @@ namespace TwentyOneGame
                 game -= player;     //  If the player decides to exits from game, this code will subtract him and displays the following message
                 Console.WriteLine("Thanks for playing1");       
             }
+
             Console.WriteLine("Feel free to look around the casino. Bye for now.");
             Console.ReadLine();
 

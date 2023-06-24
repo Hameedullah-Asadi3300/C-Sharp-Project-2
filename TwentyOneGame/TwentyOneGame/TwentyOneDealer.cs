@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TwentyOneGame
 {
-    public class Dealer
+    internal class TwentyOneDealer
     {
     }
 }
