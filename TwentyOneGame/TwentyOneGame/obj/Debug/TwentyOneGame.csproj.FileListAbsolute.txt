@@ -1,0 +1,8 @@
+D:\GIT\C-Sharp-Project-2\TwentyOneGame\TwentyOneGame\bin\Debug\TwentyOneGame.exe.config
+D:\GIT\C-Sharp-Project-2\TwentyOneGame\TwentyOneGame\bin\Debug\TwentyOneGame.exe
+D:\GIT\C-Sharp-Project-2\TwentyOneGame\TwentyOneGame\bin\Debug\TwentyOneGame.pdb
+D:\GIT\C-Sharp-Project-2\TwentyOneGame\TwentyOneGame\obj\Debug\TwentyOneGame.csproj.AssemblyReference.cache
+D:\GIT\C-Sharp-Project-2\TwentyOneGame\TwentyOneGame\obj\Debug\TwentyOneGame.csproj.SuggestedBindingRedirects.cache
+D:\GIT\C-Sharp-Project-2\TwentyOneGame\TwentyOneGame\obj\Debug\TwentyOneGame.csproj.CoreCompileInputs.cache
+D:\GIT\C-Sharp-Project-2\TwentyOneGame\TwentyOneGame\obj\Debug\TwentyOneGame.exe
+D:\GIT\C-Sharp-Project-2\TwentyOneGame\TwentyOneGame\obj\Debug\TwentyOneGame.pdb
