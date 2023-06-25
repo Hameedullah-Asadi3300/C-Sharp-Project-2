@@ -1,0 +1,8 @@
+D:\GIT\C-Sharp-Project-2\DateTimeConsoleApp\DateTimeConsoleApp\bin\Debug\DateTimeConsoleApp.exe.config
+D:\GIT\C-Sharp-Project-2\DateTimeConsoleApp\DateTimeConsoleApp\bin\Debug\DateTimeConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\DateTimeConsoleApp\DateTimeConsoleApp\bin\Debug\DateTimeConsoleApp.pdb
+D:\GIT\C-Sharp-Project-2\DateTimeConsoleApp\DateTimeConsoleApp\obj\Debug\DateTimeConsoleApp.csproj.AssemblyReference.cache
+D:\GIT\C-Sharp-Project-2\DateTimeConsoleApp\DateTimeConsoleApp\obj\Debug\DateTimeConsoleApp.csproj.SuggestedBindingRedirects.cache
+D:\GIT\C-Sharp-Project-2\DateTimeConsoleApp\DateTimeConsoleApp\obj\Debug\DateTimeConsoleApp.csproj.CoreCompileInputs.cache
+D:\GIT\C-Sharp-Project-2\DateTimeConsoleApp\DateTimeConsoleApp\obj\Debug\DateTimeConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\DateTimeConsoleApp\DateTimeConsoleApp\obj\Debug\DateTimeConsoleApp.pdb
