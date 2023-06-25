@@ -8,5 +8,6 @@ namespace TwentyOneGame
 {
     public class Dealer
     {
+        
     }
 }
