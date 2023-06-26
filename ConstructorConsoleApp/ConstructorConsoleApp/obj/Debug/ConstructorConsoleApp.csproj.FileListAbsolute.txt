@@ -1,0 +1,8 @@
+D:\GIT\C-Sharp-Project-2\ConstructorConsoleApp\ConstructorConsoleApp\bin\Debug\ConstructorConsoleApp.exe.config
+D:\GIT\C-Sharp-Project-2\ConstructorConsoleApp\ConstructorConsoleApp\bin\Debug\ConstructorConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\ConstructorConsoleApp\ConstructorConsoleApp\bin\Debug\ConstructorConsoleApp.pdb
+D:\GIT\C-Sharp-Project-2\ConstructorConsoleApp\ConstructorConsoleApp\obj\Debug\ConstructorConsoleApp.csproj.AssemblyReference.cache
+D:\GIT\C-Sharp-Project-2\ConstructorConsoleApp\ConstructorConsoleApp\obj\Debug\ConstructorConsoleApp.csproj.SuggestedBindingRedirects.cache
+D:\GIT\C-Sharp-Project-2\ConstructorConsoleApp\ConstructorConsoleApp\obj\Debug\ConstructorConsoleApp.csproj.CoreCompileInputs.cache
+D:\GIT\C-Sharp-Project-2\ConstructorConsoleApp\ConstructorConsoleApp\obj\Debug\ConstructorConsoleApp.exe
+D:\GIT\C-Sharp-Project-2\ConstructorConsoleApp\ConstructorConsoleApp\obj\Debug\ConstructorConsoleApp.pdb

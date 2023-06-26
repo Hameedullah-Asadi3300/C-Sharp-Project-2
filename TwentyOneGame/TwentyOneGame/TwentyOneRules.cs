@@ -61,7 +61,7 @@ namespace TwentyOneGame
             else return false;
         }
 
-        public static bool ShouldDealerStay(list<Card> Hand)
+        public static bool ShouldDealerStay(List<Card> Hand)
         {
             int[] possibleHandValues = GetAllPossibleHandValues(Hand);
             foreach (int value in possibleHandValues)

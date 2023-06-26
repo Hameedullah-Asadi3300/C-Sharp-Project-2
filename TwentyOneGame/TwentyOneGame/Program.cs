@@ -22,17 +22,10 @@ namespace TwentyOneGame
             //  The most useful usage of DateTime object is in logging where all logs are appeared with exact time.
 
 
-
-
-
-
-
-
             //  The text file/Login created
             string text = "Here is some text";  
             File.WriteAllText(@"C:\Users\Hameed\Logs\log.txt", text);   //   The "@" means ingnore the space otherwise we need to give back slash "\\" instead one like so: C:\\Users\\Hameed\\Logs\\log.txt, text
             //  Logging statements ended
-
 
 
             Console.WriteLine("Welcome to the grand Hotel and Casino. Let's start with telling your name:");
@@ -52,19 +45,13 @@ namespace TwentyOneGame
                 //  We are creating while loop which says to program that play the game while and until the playr wants to actively play under certain condition
                 while (player.isActivePlaying && player.Balance > 0) // 2 conditions are set. 1st as long as the player wants and 2nd as the player has balance over 0               
                 {
-                    game.play();
+                    game.Play();
                 }
                 game -= player;     //  If the player decides to exits from game, this code will subtract him and displays the following message
                 Console.WriteLine("Thanks for playing1");       
             }
-
             Console.WriteLine("Feel free to look around the casino. Bye for now.");
             Console.ReadLine();
-
-
-            while 
-
-
         }
     }
 }

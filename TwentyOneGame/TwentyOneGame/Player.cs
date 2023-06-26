@@ -13,13 +13,11 @@ namespace TwentyOneGame
         {
             Hand = new List<Card>();
             Balance = BegenningBalance;
-            Name = name;
+            string Name = name; // Added data type based on suggession
         }
-
 
         private List<Card> _hand = new List<Card>();
      
-
         public List<Card> Hand { get { return _hand; } set { _hand = value; } }
         public int Balance { get; set; }
         public string name { get; set; }
@@ -39,25 +37,17 @@ namespace TwentyOneGame
                 return true;
             }
         }
-
         public static Game operator +(Game game, Player player)
         {
             game.Players.Add(player);
             return game;
 
         }
-
         public static Game operator -(Game game, Player player)
         {
-            game.Players.remove(player);
+            game.Players.Remove(player);
                 return game;
         }
-
-
-
-
-
-
 
     }
 }
