@@ -5,6 +5,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;    //  In order to use login we use System.IO namespace becuase the file text exists here.
+using System.Diagnostics.Eventing.Reader;
 
 namespace TwentyOneGame
 {
@@ -13,7 +14,7 @@ namespace TwentyOneGame
         static void Main(string[] args)
         {
             DateTime birthYear = new DateTime(1995, 05, 27, 08, 48, 13); //  The DateTime object has six parameters of year, month, day, hours, minutes, and seconds
-            //Second DateTime object for timespan
+            //  Second DateTime object for timespan
 
             DateTime yearOfGraduation = new DateTime(2015, 12, 22, 2, 29, 45);
             TimeSpan ageAtGraduation = yearOfGraduation - yearOfBirth;
@@ -30,7 +31,19 @@ namespace TwentyOneGame
 
             Console.WriteLine("Welcome to the grand Hotel and Casino. Let's start with telling your name:");
             string playerName = (Console.ReadLine());
-            Console.WriteLine("And how much money did you bring today?");
+
+            //  EXCEPTION HANDLING
+            bool validAnswer = false;
+            int bank = 0;
+            while (!validAnswer)
+            {
+                Console.WriteLine("And how much money did you bring today?");
+                validAnswer = int.TryParse(Console.ReadLine(), out bank);
+                if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals!");   //  This is another exception handling which says if the answer is still wrong, ask the user to enter digits only
+            }
+            //EXCEPTION HANDLING ENDS
+
+
             int bank = Convert.ToInt32(Console.ReadLine());
             //  The player name will be placed inside {0}. Loved this feature!
 
@@ -45,6 +58,23 @@ namespace TwentyOneGame
                 //  We are creating while loop which says to program that play the game while and until the playr wants to actively play under certain condition
                 while (player.isActivePlaying && player.Balance > 0) // 2 conditions are set. 1st as long as the player wants and 2nd as the player has balance over 0               
                 {
+                    //EXCEPTION HANDLING STARTS
+                    try
+                    {
+                        game.Play();
+                    }
+                    catch (FraudException)
+                    {
+                        Console.WriteLine("Something you entered is incorrect.");
+                        Console.ReadLine();
+                        return;
+                    }
+                    {
+                        Console.WriteLine("An error occured, please contact your system administrator.");
+                        Console.ReadLine();
+                        return;
+                    }
+                    //EXCEPTION HANDLING ENDS
                     game.Play();
                 }
                 game -= player;     //  If the player decides to exits from game, this code will subtract him and displays the following message

@@ -26,7 +26,21 @@ namespace TwentyOneGame
 
             foreach (Player player in Players)
             {
-                int bet = Convert.ToInt32(Console.ReadLine());
+                //  EXCEPTION HANDLING STARTS
+                bool ValidAnswer = false;
+                int bet = 0;
+                while (!ValidAnswer)
+                {
+                    Console.WriteLine("Place your bet");
+                    ValidAnswer = int.TryParse(Console.ReadLine(), out bet);
+                    if (!ValidAnswer) Console.WriteLine("Please enter digits only.");
+                }
+                if (bet < 0)
+                {
+                    throw new FraudException();
+                }
+                //  EXCEPTION HANDLING ENDS
+
                 bool successfullyBet = player.Bet(bet);
                 if (!successfullyBet)   //  Means if successfullBet false then print the next statement which says end the method
                 {

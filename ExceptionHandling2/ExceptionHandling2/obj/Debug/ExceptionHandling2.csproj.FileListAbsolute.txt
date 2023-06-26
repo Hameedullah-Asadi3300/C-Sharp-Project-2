@@ -1,0 +1,8 @@
+D:\GIT\C-Sharp-Project-2\ExceptionHandling2\ExceptionHandling2\obj\Debug\ExceptionHandling2.csproj.AssemblyReference.cache
+D:\GIT\C-Sharp-Project-2\ExceptionHandling2\ExceptionHandling2\obj\Debug\ExceptionHandling2.csproj.SuggestedBindingRedirects.cache
+D:\GIT\C-Sharp-Project-2\ExceptionHandling2\ExceptionHandling2\obj\Debug\ExceptionHandling2.csproj.CoreCompileInputs.cache
+D:\GIT\C-Sharp-Project-2\ExceptionHandling2\ExceptionHandling2\bin\Debug\ExceptionHandling2.exe.config
+D:\GIT\C-Sharp-Project-2\ExceptionHandling2\ExceptionHandling2\bin\Debug\ExceptionHandling2.exe
+D:\GIT\C-Sharp-Project-2\ExceptionHandling2\ExceptionHandling2\bin\Debug\ExceptionHandling2.pdb
+D:\GIT\C-Sharp-Project-2\ExceptionHandling2\ExceptionHandling2\obj\Debug\ExceptionHandling2.exe
+D:\GIT\C-Sharp-Project-2\ExceptionHandling2\ExceptionHandling2\obj\Debug\ExceptionHandling2.pdb
