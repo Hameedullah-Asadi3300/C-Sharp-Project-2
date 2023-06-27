@@ -37,7 +37,7 @@ namespace TwentyOneGame
                 }
                 if (bet < 0)
                 {
-                    throw new FraudException("Security, kick this person out");
+                    throw new FraudException("Security, kick this person out!");
                 }
                 //  EXCEPTION HANDLING ENDS
 
