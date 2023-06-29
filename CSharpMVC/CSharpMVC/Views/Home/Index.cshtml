@@ -1,0 +1,29 @@
+﻿@{
+    @ViewBag.randomnumber // This is referenced from HomeController.cs which prints a random number of 10 digits
+
+    // Referencing the list of names written in first controller
+
+    //  PAssing the models to the view
+    @model CSharpMVC.Models.User
+    <h1>
+        @Model.Id
+    </h1>
+
+    <h1>
+        @Model.FirstName
+    </h1>
+
+    <h1>
+        @Model.LastNAme
+    </h1>
+    <h1>
+        @Model.age
+    </h1>
+
+
+
+
+
+
+}
+
