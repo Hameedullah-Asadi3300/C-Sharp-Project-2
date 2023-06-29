@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Instructor";
+}
+
+<h2>Instructor</h2>
+
+<h4>
+    Details of instructor with id: @ViewBag.id
+</h4>
+
+<p>More details about the instructor:</p>
+
+<ol>
+    <li>
+        Another Id: @Model.Id
+    </li>
+
+    <li>                                
+        First Name: @Model.FirstName        <!--To reference the model passed from from the controller, just type at Model and Do not forget to capitalize that-->
+    </li>
+
+    <li>
+        Last Name: @Model.LastName
+    </li>
+</ol>

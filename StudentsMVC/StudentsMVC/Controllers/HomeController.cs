@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StudentsMVC.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -27,17 +28,41 @@ namespace StudentsMVC.Controllers
             return View();
         }
 
-        public ActionResult Instructors(int id)
+        public ActionResult Instructor(int id)
         {
-            ViewBag.id = id;
-            return View();
+            // Instantiated an object for Instructor
+            Instructor DayTimeInstructor = new Instructor
+            {
+                Id = 100,
+                FirstName = "Hameedullah",
+                LastName = "Asadi"
+            };
+            return View(DayTimeInstructor);
         }
 
         public ActionResult Instructors()
         {
-            return View();
+            //  We are creating a list for Instructor
+            List<Instructor> Instructor = new List<Instructor>();
+            new Instructor
+            {
+                Id = 100,
+                FirstName = "Hameedullah",
+                LastName = "Asadi"
+            };
+            new Instructor
+            {
+                Id = 101,
+                FirstName = "Joe",
+                LastName = "Smith"
+            };
+            new Instructor
+            {
+                Id = 102,
+                FirstName = "Michael",
+                LastName = "Frank"
+            };
+            return View(Instructor);
         }
-
-
     }
 }
