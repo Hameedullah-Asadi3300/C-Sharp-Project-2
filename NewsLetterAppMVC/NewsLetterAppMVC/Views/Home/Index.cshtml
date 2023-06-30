@@ -1,0 +1,28 @@
+﻿<div class="row no-gutters m-3">
+    <div class="card col-sm-12 col-md-10 col=lg-6 mx-auto shadow">
+        <div class="card-header text-center">
+            <h5 class=" m-0">Sing Up to Our Newsletter</h5> <!--This is the header for our newletter-->
+        </div>
+        <div class="card-body">
+            <!--card-body is the class used here-->
+            @using (Html.BeginForm("SignUp", "Home", FormMethod.Post))
+
+            {
+            <div class="row no-gutters">
+                <div class="form-Group col-md-5">
+                    <!--form-Group is a bootstrap class used here-->
+                    <input name="FirstName" type="text" class="form-control" placeholder="First Name" />    <!--Creates a form with all properties inside it like placeholder and etc...-->
+                </div>
+                <div class="form-Group col-md-5">
+                    <input name="LastName" type="text" class="form-control" placeholder="Last Name" />
+                </div>
+                <div class="form-Group col-md-5">
+                    <input name="Email" type="Email" class="form-control" placeholder="Email" /> <!--We put the type here "Email" so if someone enters s non email string, it will give an error ans keep asking for email-->
+                </div>
+                <button type="submit" class="btn btn-block btn-primary">Submit</button> <!--This is the button used with the class named btn-block-->
+            </div>
+            }
+        </div>
+
+    </div>
+</div>
