@@ -1,4 +1,5 @@
-﻿using NewsLetterAppMVC.Models;
+﻿using Microsoft.Ajax.Utilities;
+using NewsLetterAppMVC.Models;
 using NewsLetterAppMVC.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -15,11 +16,9 @@ namespace NewsLetterAppMVC.Controllers
         //  Here we need to connect our database created on SSMS so the information is recorded in.
         //  This is our connection string which connects the database with the form.
         private readonly string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Newsletter;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
-        
+
         private object sqlDbType;
         private SqlConnection connection;
-
-        public int NewsLetterSignUp { get; private set; }
 
         public ActionResult Index()
         {
@@ -28,93 +27,79 @@ namespace NewsLetterAppMVC.Controllers
 
         //  This is the method created for SignUp form which is also known as controller
         [HttpPost]  //  It is good practice to write [HttpPost] whenever we post something, however that is not necessary
-        public ActionResult SignUp(string FirstName, string LastName, string Email)
+        public ActionResult SignUp(string firstName, string lastName, string email)
         {
-            if (string.IsNullOrEmpty(FirstName) || string.IsNullOrEmpty(LastName) || string.IsNullOrEmpty(Email))   //This if statement checks if any of these values were empty, then return the error which is in Views/Shared/Error.cshtml
+            if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrEmpty(email))   //This if statement checks if any of these values were empty, then return the error which is in Views/Shared/Error.cshtml
             {
                 return View("~/Views/Shared/Error.cshtml"); //  This is the path for that error page
             }
             else    //  Otherwise success view will be diaplayed/returned. We also created a view under "Success" name
             {       //  This is also called server validation.    
-                
-                string queryString = @"INSERT INTO SignUps (FirstName, LastName, Email) VALUES
-                                    (@FirstName, @LastName, @Email)";
-
-
-
-                using (SqlConnection connection = new SqlConnection(connectionString))   //  Here is a bug should be made correct - PART 7 OF MVC APPLICATION
+                //  We are instantiated our object abd named it db
+                using (NewsletterEntities db = new NewsletterEntities())
                 {
-                    SqlCommand command = new SqlCommand(queryString, connection);
-                    command.Parameters.Add("@FirstName", SqlDbType.VarChar);
-                    command.Parameters.Add("@LastName", SqlDbType.VarChar);
-                    command.Parameters.Add("@Email", SqlDbType.VarChar);
+                    //  These are the properties we have mapped to the object and the parameters cane in
+                    var signup = new SignUp();
+                    signup.FirstName = firstName;   //  firstName is the parameter
+                    signup.LastName = lastName;     //  lastName is the parameter
+                    signup.Email = email;           //  email is the parameter
 
-                    command.Parameters["@FirstName"].Value = FirstName;
-                    command.Parameters["@LastName"].Value = LastName;
-                    command.Parameters["@Email"].Value = Email;
-
-                    connection.Open();
-                        command.ExecuteNonQuery();
-                    connection.Close();
-
+                    //  Now we have this object and we want to add it to our database
+                    db.SignUps.Add(signup);
+                    db.SaveChanges();   // Throws an error. This statement saves the changes to the database
                 }
                 return View("Success");
             }
         }
-
-        public NewsletterSignUp GetNewsletterSignUp()
-        {
-            return NewsletterSignUp;
-        }
-
-        public SignupVM GetSignupVM()
-        {
-            return SignupVM;
-        }
-
-
-
-        //  This method is used to get the signups by administrator
-        public ActionResult Admin(NewsletterSignUp newsletterSignUp, SignupVM signupVM)
-        {
-            string queryString = @"Select id, FirstName, LastName, Email, SocialInsuranceNumber from SignUp";
-
-            List<NewsLetterSignUp> signups = new List<NewsLetterSignUp>();
-
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                SqlCommand command = new SqlCommand(queryString, connection);
-                connection.Open();
-                
-                SqlDataReader reader = command.ExecuteReader();
-                while (reader.Read())
-                {
-                    var signUp = new NewsletterSignUp();
-                    signUp.id = Convert.ToInt32(reader["id"]);
-                    signUp.FirstName = reader["FirstName"].ToString();
-                    signUp.LastName = reader["LastName"].ToString();
-                    signUp.Email = reader["Email"].ToString();
-                    signUp.SocialInsuranceNumber = reader["SocialInsuranceNumber"].ToString();
-
-                    signups.Add(signUp);
-
-                    //Here we want to prevent the SIN from displaying to the admin for security and safety reasons
-                }
-            }
-            //  By using view models in this project we have limited the information/field passing to the view
-            var signupsVms = = new List<SignupVM>();
-            foreach (var signup in signups)
-            {
-                var SignupVM = new SignupVM();
-                signupVM.FirstName = signup.FirstName;      //  Need to be debugged
-                signupVM.LastName = signup.LastName;        //  Need to be debugged
-                signupVM.Email = signup.Email;              //  Need to be debugged
-                signupsVms.Add(signupVM);   
-            }
-                return View(signupsVms);
-        }
-    }
-    internal class NewsLetterSignUp
-    {
+                   
     }
 }
+
+
+
+//public ActionResult Admin()
+//{
+//using (NewsletterEntities db = new NewsletterEntities()) //  Here we instantiated the "NewsletterEntities" object that gives us access to the database
+//{
+//  Now we are using the db object to access the database
+
+//var signups = db.SignUps;     //    We created a variable called signups and it is equal to db.SignUps which represents all of the records in that database  
+//var signupsVms = new List<SignupVM>();  //  We created a new list of view models 
+//foreach (var signup in signups)         //We mapped the view models from model to the view model 
+//{
+//var SignupVM = new SignupVM();
+//signupVM.FirstName = signup.FirstName;      //  Need to be debugged
+//signupVM.LastName = signup.LastName;        //  Need to be debugged
+//signupVM.Email = signup.Email;              //  Need to be debugged
+//signupsVms.Add(signupVM);
+//}
+//return View(signupsVms);    //  We paased the list to the view
+//}
+//}
+
+//      WE ARE REPLACING THE FOLLOWING COMMENTS WITH THE ENTITY FRAMEWORK SYNTAX AS ABOVE. BOTH ARE ALTERNATIVES TO EACH OTHERS AND BOTH WORK THE SAME WAY
+//string queryString = @"Select id, FirstName, LastName, Email, SocialInsuranceNumber from SignUp";
+//List<NewsLetterSignUp> signups = new List<NewsLetterSignUp>();
+//using (SqlConnection connection = new SqlConnection(connectionString))
+//{
+//    SqlCommand command = new SqlCommand(queryString, connection);
+//    connection.Open();
+//    SqlDataReader reader = command.ExecuteReader();
+//    while (reader.Read())
+//    {
+//        var signUp = new NewsletterSignUp();
+//        signUp.id = Convert.ToInt32(reader["id"]);
+//        signUp.FirstName = reader["FirstName"].ToString();
+//        signUp.LastName = reader["LastName"].ToString();
+//        signUp.Email = reader["Email"].ToString();
+//        signUp.SocialInsuranceNumber = reader["SocialInsuranceNumber"].ToString();
+//        signups.Add(signUp);
+
+//Here we want to prevent the SIN from displaying to the admin for security and safety reasons
+//    }
+//}
+//  By using view models in this project we have limited the information/field passing to the view
+
+
+
+

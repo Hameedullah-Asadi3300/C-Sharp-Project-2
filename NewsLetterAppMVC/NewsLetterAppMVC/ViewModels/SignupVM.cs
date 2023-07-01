@@ -9,6 +9,6 @@ namespace NewsLetterAppMVC.ViewModels
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string SocialInsuranceNumber { get; set; }
+        public string Email { get; set; }
     }
 }
