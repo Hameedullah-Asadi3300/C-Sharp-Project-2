@@ -15,11 +15,6 @@ namespace NewsLetterAppMVC.Controllers
     {
         //  Here we need to connect our database created on SSMS so the information is recorded in.
         //  This is our connection string which connects the database with the form.
-        private readonly string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Newsletter;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
-
-        private object sqlDbType;
-        private SqlConnection connection;
-
         public ActionResult Index()
         {
             return View();
@@ -46,7 +41,7 @@ namespace NewsLetterAppMVC.Controllers
 
                     //  Now we have this object and we want to add it to our database
                     db.SignUps.Add(signup);
-                    db.SaveChanges();   // Throws an error. This statement saves the changes to the database
+                    db.SaveChanges();   // Throws an error
                 }
                 return View("Success");
             }

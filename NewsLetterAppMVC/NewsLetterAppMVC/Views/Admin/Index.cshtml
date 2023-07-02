@@ -6,27 +6,40 @@
 <div class="row no-gutters m-3">
     <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto-shadow">
         <div class="card-header text-center">
-            <h5>"m-0"Sing-Ups</h5>
+            <h5>Sign-Ups</h5>
         </div>
         <div class="card-body">
             @foreach (var signUp in Model)
             {
-                //  This creates a separate row for each signup and to that, we need to loop through, but a logic is also needed to grab all these from database which is written in HomeController.cs
-                <div class="row">
 
-                    <div class="col">
-                        @signUp.FirstName
+                using (Html.BeginForm("Unsubscribe", "Admin", FormMethod.Post))
+                {
+                    <input type="hidden" name="id" value="@signUp.id" />
+                    //  This creates a separate row for each signup and to that, we need to loop through, but a logic is also needed to grab all these from database which is written in HomeController.cs
+                    <div class="row mb-3">  <!--mb-3 is CSS feature that generates space and mb-3 is used for spacing between columns-->
+
+                        <div class="col-3">     <!-- The col-3 is used here t indicate the space taken by this FirstName as columns numbers-->
+                            @signUp.FirstName       
+                        </div>
+
+                        <div class="col-2">
+                            @signUp.LastName
+                        </div>
+
+                        <div class="col-7">
+                            @signUp.Email
+                        </div>
+                        <!-- Here we want to add a button to the admin view in order to unsubscribe someone from the newsletter -->
+                        <!-- We are creating a new column to generate a button for admin to unsubsribe -->
+                        <!-- Bootstrap has 12 columns and whenever we create a column, 12 is divided by the column we are having -->
+                        <div class="Button-1">
+                            <button type="Submit" class="btn btn-danger btn-block">
+                            Unsubsrcibe
+                            </button>
+
+                        </div>
                     </div>
-
-                    <div class="col">
-                        @signUp.LastName
-                    </div>
-
-                    <div class="col">
-                        @signUp.Email
-                    </div>
-
-                </div>
+                }
             }
         </div>
     </div>
