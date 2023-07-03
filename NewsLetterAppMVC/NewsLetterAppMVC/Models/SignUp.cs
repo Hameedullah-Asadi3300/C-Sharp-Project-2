@@ -18,6 +18,6 @@ namespace NewsLetterAppMVC.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
-        public Nullable<System.DateTime> Removed { get; set; }      //  It has been automatically added up on column creation on SMSS
+        public Nullable<System.DateTime> Removed { get; set; }
     }
 }
