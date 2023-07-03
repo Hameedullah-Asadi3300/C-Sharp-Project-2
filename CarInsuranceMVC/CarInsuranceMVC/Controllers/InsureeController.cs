@@ -138,7 +138,7 @@ namespace CarInsuranceMVC.Controllers
             decimal Quote = 50m;                                               //  This is the base payment
             int age = DateTime.Now
                       - insuree.DateofBirth.Year;           //  Customer's age calculation
-            if (age <= 18)
+                if (age <= 18)
             {
                 Quote += 100m;
             }
@@ -185,8 +185,8 @@ namespace CarInsuranceMVC.Controllers
             if (insuree.CoverageType == true)
             {
                 Quote += 0.5m;
+                Quote = insuree.Quote;              //  Saves the value of calculated quote to the insuree.quote property
             }
-            Quote = insuree.Quote;              //  Saves the value of calculated quote to the insuree.quote property
             //  coverage type calculation ended
             return View(Quote);
         }
