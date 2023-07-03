@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
+using System.Net.Mail;
 using System.Runtime.Remoting.Messaging;
 using System.Security.Policy;
 using System.Web;
@@ -127,98 +128,93 @@ namespace CarInsuranceMVC.Controllers
             }
             base.Dispose(disposing);
         }
-        
+
+
+
 
         //  Adding logic to the code
-        public double BasePayment(Insuree insuree)
+        public ActionResult Quote(Insuree insuree)
         {
-            //  This is the base payment
-            double payment = 50;
-
-            //  Customer's age calculation
-            int customersAge = DateTime.Now - insuree.DateofBirth.Year;
-
-            //  If statement to add more payment if age <= 18
-            if (customersAge <= 18)
+            decimal Quote = 50m;                                               //  This is the base payment
+            int age = DateTime.Now
+                      - insuree.DateofBirth.Year;           //  Customer's age calculation
+            if (age <= 18)
             {
-                payment += 100;
+                Quote += 100m;
             }
 
-            //  This is the payment amount if the customer's age is between 19-25
-            else if (customersAge <= 25)
+            else if (age >= 19 && age <= 25)                                    //  This is the payment amount if the customer's age is between 19-25
             {
-                payment += 50;
+                Quote += 50m;
             }
 
-            //  This statement adds $25 if the customer's age is 26 or older than
-            else if (customersAge >= 26)
+            else if (age >= 26)                                                  //  This statement adds $25 if the customer's age is 26 or older than
+
             {
-                payment += 25;
+                Quote += 25m;
             }
             //  Age claculation ended
-
             //  Car year calculation
             if (insuree.CarYear < 20000)
             {
-                payment += 25;
+                Quote += 25m;
             }
             else if (insuree.CarYear > 2015)
             {
-                payment += 25;
+                Quote += 25m;
             }
             //  Car year calculation ended
-
             //  Car Make calculation
             if (insuree.CarMake == "Porsche")
             {
-                payment += 25;
+                Quote += 25m;
             }
-            if (insuree.CarMake == "Porsche" || insuree.CarModel == "911 Carrera")
+            if (insuree.CarMake == "Porsche" && insuree.CarModel == "911 Carrera")
             {
-                payment += 25;
+                Quote += 25m;
             }
             //  Specific car model calculation ended
-
             //  Ticket calculation
-            payment += 10 * insuree.SpeedingTickets;
+            Quote += 10 * insuree.SpeedingTickets;
             if (insuree.DUI == true)
             {
-                payment *= 25;  //  If the customer has DUI, this if stetement and condition will add 25% to the total amoiunt should be paid
+                Quote *= 0.25m;                 //  If the customer has DUI, this will add 25% to the total amount
             }
             //  Ticket calculation ended
-
             //  Coverage type calculation
             if (insuree.CoverageType == true)
             {
-                payment += 0.5;
+                Quote += 0.5m;
             }
+            Quote = insuree.Quote;              //  Saves the value of calculated quote to the insuree.quote property
             //  coverage type calculation ended
-            return payment;
+            return View(Quote);
         }
 
-            //  Admin view
-        public ActionResult Admin()
-        {
-            var payment = (from insuree in db.Insurees
-                           select new PropertyView
-                           {
-                               FirstName = insuree.FirstName,
-                               LastName = insuree.LastName,
-                               EmailAddress = insuree.EmailAddress
-                           }).ToList();
-            return View(payment);                   
-        }  
-        
 
-        public class PropertyView
+
+        //Admin View
+        public ActionResult Admin()
+
+        {
+            var Quote = (from insuree in db.Insurees
+                         select new QViewModel
+                         {
+                             FirstName = insuree.FirstName,
+                             LastName = insuree.LastName,
+                             EmailAddress = insuree.EmailAddress,
+                         }).ToList();
+            return View(Quote);
+        }
+
+        public class QViewModel
         {
             public string FirstName { get; set; }
             public string LastName { get; set; }
             public string EmailAddress { get; set; }
         }
-
-
     }
 }
+
 
 
